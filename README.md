@@ -1,6 +1,6 @@
 # Dynamic Calendar with Event Management
 
-This is an interactive Data Explorer that visualizes event data using various charts, maps, and tables. The application allows users to filter data by date, country, and event type, and it dynamically updates the visualizations accordingly. The calendar is fully functional and can be viewed on GitHub Pages.
+This is an interactive Data Explorer that visualizes event data using various charts, maps, and tables. The application allows users to filter data by date, country, and event type, and it dynamically updates the visualizations accordingly. The dashboard is fully functional and can be viewed on GitHub Pages.
 
 ## Viewing
 
