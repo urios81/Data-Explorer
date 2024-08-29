@@ -1721,6 +1721,12 @@
         addEventHandler("#Data_Explorer .dropdown-menu", "click", function(event) {
             event.stopPropagation();
         });
+
+        console.log(Array.from(document.querySelectorAll('.help-tooltip')))
+
+        Array.from(document.querySelectorAll('.help-tooltip')).forEach(tooltipTriggerEl => {
+            new bootstrap.Tooltip(tooltipTriggerEl);
+        });
         
         configureCleanup();
     }

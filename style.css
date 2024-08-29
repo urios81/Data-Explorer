@@ -8,6 +8,38 @@
     text-align: center;
 }
 
+.help-tooltip {
+    display: inline-block;
+    position: relative;
+    top: -2px;
+}
+
+.svg-inline--fa.fa-xs {
+    vertical-align: 0em;
+}
+
+.fa-xs {
+    font-size: 0.75em;
+    line-height: 0.0833333337em;
+}
+
+.svg-inline--fa {
+    display: var(--fa-display, inline-block);
+    height: 1em;
+}
+
+.help-tooltip .help-icon {
+    color: #6c757d !important;
+    margin-left: .5rem !important;
+    margin-right: .5rem !important;
+    cursor: pointer;
+}
+
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+    overflow: visible;
+    box-sizing: content-box;
+}
+
 #Data_Explorer .summary-count {
     font-size: 16px;
     font-family: roboto;
